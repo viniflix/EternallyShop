@@ -8,11 +8,6 @@
   background-position: 50% 19.23%;
   margin-top: 2px;
   margin-bottom: 0;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 300px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 0.3;
   box-shadow: 5px 5px 20px 0 rgba(49,38,91,0.4);
   filter: brightness(0.4);
 }
@@ -61,6 +56,14 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-image-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 300px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 0.3;
+  }
+
   .u-section-1 .u-image-2 {
     margin-left: calc(((100% - 940px) / 2));
   }
